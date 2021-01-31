@@ -10,7 +10,7 @@ Uninstalls Edge from ProgramFiles as uninstalling it from Programs and Features 
 ## Dependencies
 - .NET Framework 2.0
 
-## Administrator privileges
+## Administrative privileges
 are needed because we query the "SystemRoot" (returning Windows installation path) environment variable, as well as starting the Edge setup with elevated privileges.
 
 ## License
